@@ -2,6 +2,67 @@
 <html>
     <head>
         <title>My website</title>
+        <!-- Global Styles -->
+        <style>
+            body {background-color:powderblue;}
+            h1 {color:white;}
+            p {color:black;}
+        </style>
+        <style>
+            h1{
+                color: blue;
+                font-family: vedarna;
+                font-size: 300%;
+            }
+            p{
+                color:black;
+                font-family:Courier;
+                font-size: 160%;
+            }
+        </style>
+        <style>
+            p{
+                border: 2px solid black;
+                padding: 30px;
+                margin:10px;
+            }
+        </style>
+        <!-- Link Colors Styles -->
+        <style>
+            a:link{
+                color:green;
+                background-color:transparent;
+                text-decoration: none;
+            }
+            a:visited{
+                color:pink;
+                background-color:transparent;
+                text-decoration:none;
+            }
+            a:hover{
+                color:red;
+                background-color: transparent;
+                text-decoration:underline;
+            }
+            a:active{
+                color:yellow;
+                background-color:transparent;
+                text-decoration:underline;
+            }
+        </style>
+        <!-- Link Button Styles -->
+        <style>
+            a:link, a:visited {
+                background-color: #f44336;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            a:hover,a:active{
+                background-color:black;
+            }
+        </style>
     </head>
     <body>
         <h1>I AM VAIBHAV CHAUHAN</h1>
@@ -129,7 +190,58 @@
             <h1 style="background-color:rgba(255,99,71,0.5);">rgba(255,99,71,0.5)</h1>
             <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
             <p>In addition to the predefined color names, colors can be specified using RGB,HEX,HSL, or even transparent colors using RGBA or HSLA color values.</p>
+            <br>
+            <h1 style="color:blue;">A Blue Heading</h1>
+            <p style="color:red;">A Red Paragraph.</p>
+            <br>
+            <h1>This is a heading</h1>
+            <p>This is a paragraph.</p>
             
-        </body>
+            <h1>Hello Vaibhav</h1>
+            <p>How are you?</p>
+            
+            <h1>This is Heading</h1>
+            <p>This is Paragraph.</p>
+            <p>This is Paragraph.</p>
+            <p>This is Paragraph.</p>
+            <br>
+            <!-- External CSS links (uncomment if files exist) -->
+            <!-- <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> -->
+            <!-- <link rel="stylesheet" href="/html/styles.css"> -->
+            <!-- <link rel="stylesheet" href="style.css"> -->
+            <h2>HTML links</h2>
+            <p><a href="https://www.w3schools.com/">Visits w3schools.com!</a></p>
+            <br>
+            <h2>The target Attribute</h2>
+            <a href="https://www.w3schools.com/" target="_blank">Visit w3schools!</a>
+            <p>If target="_blank", the link will  open in a new browser window or tab.</p>
+            <br>
+            <h2>Absolute URLs</h2>
+            <p><a href="https://www.w3.org/" target="_blank">W3C</a></p>
+            <p><a href="https://www.google.com/" target="_blank">Google</a></p>
+            <br>
+            <h2>Relative URLs</h2>
+            <p><a href="html_images.asp">HTML images</a></p>
+            <p><a href="/css/default.asp">CSS Tutorial</a></p>
+            <br>
+            <h2>image as a Link</h2>
+            <p>The image below is a link. Try to click on it.</p>
+            <a href="https://www.google.com"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+            <br>
+            <h2> Link to an Email Address</h2>
+            <P> To create a link that opens in the users's email program (to let them  send  a new email), use mailto:  inside the herf attribute:</P>
+            <p><a href="mailto:vaibhavchauhan7299@gmail.com">Send Email</a></p>
+            <br>
+            <h2>BButton as links</h2>
+        <button onclick="document.location='https://www.google.com/'">VAIBHAV BHAI NU BUTTON</button>
+        <br>
+        <h2>Link colors</h2>
+        <p>you can channge the default colors of links</p>
+        <a href="https://meghvyas.netlify.app" target="_blank">Visit Meghvyas</a>
+        
+        <br>
+        <h2>Link Button</h2>
+        <p>A link style as a button:</p>
+        <a href="https://meghvyas.netlify.app" target="_blank">Link Meghvyas</a>
     </body>
 </html>
